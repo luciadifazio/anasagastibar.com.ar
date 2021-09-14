@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*header*/
+.logo{
+    height: 300px;
+}
+/*#portada{
+    height: 20rem;
+    width: 40rem;
+}*/
+
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+/*.posicionLogo{
+    display: inline;
+
+}*/
+
+.posicionPortada{
+    display: inline-block;
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    
+}
+nav{
+    margin-top: 20%;
+
+}
+
+ul.menu li{
+    background: #cc9d27;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+    font-size: 18px;
+    text-align: center;
+    font-family: Merriweather Sans, sans-serif;
+    font-style: normal;
+  }
+  
+  /*ul.submenu li{
+    background-color: black;
+    width: 100px;
+    display: none;
+    float:none;
+    color: burlywood;
+  }
+  
+  li.uno:hover > ul.submenu li {
+      display: block;  
+  }*/
+
+/*body*/
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #f5f5f5;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-family: Merriweather Sans, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold
+}
+
+.imagenIndex{
+    margin-left: 200px;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 10%;
+    margin-bottom: 10%;  
+}
+
+.fotoCurso{
+    width: 30vw;
+}
+p{
+    color: #f5f5f5;
+    font-family: Merriweather Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+.imagenCoctel, .imagenTapa{
+    width: 400px;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 320px){
+    body{
+        background-color: #000000
+    }
+
+    h1{
+        color: #cc9d27;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    nav{
+        margin-top: 20%;
+    }
+    
+    ul.menu li{
+        background: #cc9d27;
+        list-style: none;
+        display: block;
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20%;
+        font-size: 18px;
+        text-align: center;
+        font-family: Merriweather Sans, sans-serif;
+        font-style: normal;
+      }
+
+    .posicionPortada{
+        display: block;
+        width: 50vw;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: 40%;      
+    }
+    #logo{
+        height: 30vh;
+        width: 30vh;
+    }
+
+    p{
+        color: #f5f5f5;
+        font-family: Merriweather Sans, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: medium;
+        text-align: justify;
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .formulario{
+        background-color: #9b844a;
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: Merriweather Sans, sans-serif;
+        color: #f5f5f5;
+        box-shadow: 7px 13px 37px #000000;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    body{
+
+        background-color: #000000
+    }
+    h1{
+        color: #cc9d27;
+    }
+    ul.menu li{
+        background: #cc9d27;
+        list-style: none;
+        display: block;
+        position: relative;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20%;
+        font-size: 18px;
+        text-align: center;
+        font-family: Merriweather Sans, sans-serif;
+        font-style: normal;
+
+      }
+    
+    .posicionPortada{
+        display: block;
+        width: 50vw;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: 40%;      
+    }
+    #logo{
+        height: 30vh;
+        width: 30vh;
+    }
+
+}
+
+.tapaImpar,.coctelImpar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tapaPar, .coctelPar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.parrafoImpar{
+    width: 50%;
+}
+
+
+.colorFormulario{
+    color: #f5f5f5;
+}
+
+.formulario{
+    background-color: #9b844a;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Merriweather Sans, sans-serif;
+    color: #f5f5f5;
+    box-shadow: 7px 13px 37px #000000;
+}
+
+.formularioTitulo{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control{
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #f5f5f5;
+    font-family: Merriweather Sans, sans-serif;
+    font-size: 18px;  
+}
+
+.boton{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    background: linear-gradient(to left top, #9b844a,#f5f5f5);
+    font-size: 20px;    
+}
+
+.boton:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215,0.610,0.355,1) .5s;
+}
+
+.boton:active{
+    transform: translateY(3px);
+}
+
+.control:focus{
+    height: 65px;
+}
+
+/*Footer*/
+.colorCopy{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    font-family: Merriweather Sans, sans-serif;
+    font-style: normal;
+    margin-top: 5%;
+    list-style: none;
+}
+
+ul.pieDePagina li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    width: 45%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Merriweather Sans, sans-serif;
+    font-style: normal;
+    margin-top: 10%;
+}
+
+.menuFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: Merriweather Sans, sans-serif;
+    color: #f5f5f5;
+    font-style: normal;
+    background-color: #cc9d27;
+    list-style: none;
+    margin-top: 10%;
+}

@@ -1,0 +1,352 @@
+/*header*/
+/*#portada{
+    height: 20rem;
+    width: 40rem;
+}*/
+/*.posicionLogo{
+    display: inline;
+
+}*/
+/*ul.submenu li{
+    background-color: black;
+    width: 100px;
+    display: none;
+    float:none;
+    color: burlywood;
+  }
+  
+  li.uno:hover > ul.submenu li {
+      display: block;  
+  }*/
+/*body*/
+/*Footer*/
+
+$colorfuente: #f5f5f5;
+$colorfondo: #cc9d27;
+$anchoimagen: 200px;
+$redesSociales: facebook, instagram;
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+.logo {
+	height: 300px;
+}
+a {
+	color: $colorfuente;
+	text-decoration: none;
+}
+.posicionPortada {
+	display: inline-block;
+	width: 70vw;
+	height: 70vh;
+	position: absolute;
+	top: 0%;
+	left: 20%;
+}
+nav {
+	margin-top: 20%;
+}
+ul.menu {
+	li {
+		background: $colorfondo;
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		margin: 15px;
+		padding: 10px;
+		border-radius: 5px;
+		width: 15%;
+		font-size: 18px;
+		text-align: center;
+		font-family: Merriweather Sans, sans-serif;
+		font-style: normal;
+	}
+}
+body {
+	background-color: #000000;
+}
+h1 {
+	color: $colorfuente;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-family: Merriweather Sans, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.imagenIndex {
+	margin-left: 200px;
+	width: 70vw;
+	height: 70vh;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.fotoCurso {
+	width: 30vw;
+}
+p {
+	color: $colorfuente;
+	font-family: Merriweather Sans, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: medium;
+	text-align: justify;
+	line-height: 30px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+.coctel-par__imagen {
+	width: $anchoimagen*2;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.coctel-impar__imagen{
+	width: $anchoimagen*2;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.tapa-impar__imagen {
+	width: $anchoimagen*2;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.tapa-par__imagen {
+	width: $anchoimagen*2;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.tapa-impar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.coctel-impar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.tapa-par {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 5%;
+	align-items: center;
+}
+.coctel-par {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 5%;
+	align-items: center;
+}
+.coctel-impar__parrafo{
+	align-items: center;
+}
+
+.colorFormulario {
+	color: $colorfuente;
+}
+.formulario {
+	background-color: #9b844a;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: Merriweather Sans, sans-serif;
+	color: $colorfuente;
+	box-shadow: 7px 13px 37px #000000;
+}
+.formularioTitulo {
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.control {
+	width: 100%;
+	background-color: #000000;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid $colorfuente;
+	font-family: Merriweather Sans, sans-serif;
+	font-size: 18px;
+	&:focus {
+		height: 65px;
+	}
+}
+.boton {
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	border-radius: 4px;
+	border: none;
+	text-transform: uppercase;
+	background: linear-gradient(to left top, #9b844a,#f5f5f5);
+	font-size: 20px;
+	&:hover {
+		cursor: pointer;
+		transform: translateY(-3px);
+		transition: all cubic-bezier(0.215,0.610,0.355,1) .5s;
+	}
+	&:active {
+		transform: translateY(3px);
+	}
+}
+.colorCopy {
+	color: $colorfuente;
+	text-align: center;
+	font-size: 15px;
+	text-align: center;
+	font-family: Merriweather Sans, sans-serif;
+	font-style: normal;
+	margin-top: 5%;
+	list-style: none;
+}
+ul.pieDePagina {
+	li {
+		display: inline-block;
+		position: relative;
+		list-style: none;
+		width: 45%;
+		font-size: 15px;
+		text-align: center;
+		font-family: Merriweather Sans, sans-serif;
+		font-style: normal;
+		margin-top: 10%;	
+		
+	}
+}
+.menuFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 18px;
+	font-family: Merriweather Sans, sans-serif;
+	color: $colorfuente;
+	font-style: normal;
+	background-color: $colorfondo;
+	list-style: none;
+	margin-top: 10%;
+}
+
+
+@each $redSocial in facebook, instagram {
+	.#{$redSocial}{
+		width: $anchoimagen/2;
+		height: 100px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("../redsocial/#{$redSocial}.png");
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	body {
+		background-color: #000000;
+	}
+	h1 {
+		color: $colorfondo;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	nav {
+		margin-top: 20%;
+	}
+	ul.menu {
+		li {
+			background: $colorfondo;
+			list-style: none;
+			display: block;
+			position: relative;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+			width: 20%;
+			font-size: 18px;
+			text-align: center;
+			font-family: Merriweather Sans, sans-serif;
+			font-style: normal;
+		}
+	}
+	.posicionPortada {
+		display: block;
+		width: 50vw;
+		height: 50vh;
+		position: absolute;
+		top: 0%;
+		left: 40%;
+	}
+
+	p {
+		color: $colorfuente;
+		font-family: Merriweather Sans, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: medium;
+		text-align: justify;
+		line-height: 30px;
+		letter-spacing: 2px;
+		word-spacing: 2px;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 10%;
+	}
+	.formulario {
+		background-color: #9b844a;
+		width: 400px;
+		padding: 30px;
+		margin: auto;
+		margin-top: 100px;
+		border-radius: 4px;
+		font-family: Merriweather Sans, sans-serif;
+		color: $colorfuente;
+		box-shadow: 7px 13px 37px #000000;
+	}
+}
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #000000;
+	}
+	h1 {
+		color: $colorfuente;
+	}
+	ul.menu {
+		li {
+			background: $colorfondo;
+			list-style: none;
+			display: block;
+			position: relative;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+			width: 20%;
+			font-size: 18px;
+			text-align: center;
+			font-family: Merriweather Sans, sans-serif;
+			font-style: normal;
+		}
+	}
+	.posicionPortada {
+		display: block;
+		width: 50vw;
+		height: 50vh;
+		position: absolute;
+		top: 0%;
+		left: 40%;
+	}
+}
