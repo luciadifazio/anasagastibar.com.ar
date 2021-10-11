@@ -216,6 +216,12 @@ p {
 	margin-top: 5%;
 	list-style: none;
 }
+.mapa{
+	margin-top: 20%;
+	margin-left: 30%;
+	width: 500px;
+	height: 500px;
+  }
 .colorCopy {
 	color: $colorfuente;
 	font-size: 15px;
@@ -308,7 +314,16 @@ ul.pieDePagina {
 			font-style: normal;
 		}
 	}
-
+	h1 {
+		color: #cc9d27;
+		margin-top: 20%;
+		margin-bottom: 10%;
+		font-size: 18px;
+	  }
+	  nav {
+		margin-top: 40%;
+		margin-left: 0%;
+	  }
 	p {
 		color: $colorfuente;
 		font-family: Merriweather Sans, sans-serif;
@@ -334,6 +349,121 @@ ul.pieDePagina {
 		color: $colorfuente;
 		box-shadow: 7px 13px 37px #000000;
 	}
+	.menuFooter {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: row;
+				flex-direction: row;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+		font-size: 13px;
+		font-family: Merriweather Sans, sans-serif;
+		color: #f5f5f5;
+		font-style: normal;
+		background-color: #cc9d27;
+		list-style: none;
+		margin-top: 10%;
+	  }
+	  .colorCopy {
+		color: #f5f5f5;
+		text-align: center;
+		font-size: 12px;
+		text-align: center;
+		font-family: Merriweather Sans, sans-serif;
+		font-style: normal;
+		margin-top: 5%;
+		list-style: none;
+	  }
+	  .direccion{
+		color: #f5f5f5;
+		text-align: center;
+		font-size: 12px;
+		text-align: center;
+		font-family: Merriweather Sans, sans-serif;
+		font-style: normal;
+		margin-top: 15%;
+		list-style: none;
+	  }
+	  .facebook {
+		width: 20px;
+		height: 20px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("../redsocial/facebook.png");
+	  }
+	  
+	  .instagram {
+		width: 20px;
+		height: 20px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("../redsocial/instagram.png");
+	  }
+	  .coctel-par__imagen {
+		width: 200px;
+		height: 200px;
+		margin-left: 5%;
+		margin-right: 0%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	  }
+	  
+	  .coctel-impar__imagen {
+		width: 200px;
+		height: 200px;
+		margin-left: 0%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	  }
+	  
+	  .tapa-impar__imagen {
+		width: 200px;
+		height: 200px;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	  }
+	  
+	  .tapa-par__imagen {
+		width: 200px;
+		height: 200px;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	  }
+	  .chico{
+		font-size: 10px;
+	  }
+	  .mapa{
+		margin-top: 20%;
+		margin-left: 20%;
+		width: 200px;
+		height: 200px;
+	  
+	  }
+	  .fondo-contacto{
+		width: 100vw;
+		height: 100vh;
+	  }
+	  .contacto{
+		animation-duration: 3s;
+		animation-name: fotocontacto;
+		animation-iteration-count: initial;
+	  }
+	  @keyframes fotocontacto {
+		from{
+		  margin-left: 100%;
+		  width: 300%;
+		}
+		to{
+		  margin-left: 0%;
+		  width: 100%;
+		}
+	  }
 }
 @media only screen and (max-width: 768px) {
 	body {
@@ -366,4 +496,26 @@ ul.pieDePagina {
 		top: 0%;
 		left: 40%;
 	}
+	.contacto{
+		animation-duration: 3s;
+		animation-name: fotocontacto;
+		animation-iteration-count: initial;
+	  }
+	  @keyframes fotocontacto {
+		from{
+		  margin-left: 100%;
+		  width: 300%;
+		}
+		to{
+		  margin-left: 0%;
+		  width: 100%;
+		}
+	  }
+	  .mapa{
+		margin-top: 30%;
+		margin-left: 30%;
+		width: 300px;
+		height: 300px;
+	  
+	  }
 }
